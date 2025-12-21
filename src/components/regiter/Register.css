@@ -1,0 +1,86 @@
+.register {
+  width: full;
+  height: 100vh;
+  background: linear-gradient(#4d8627 70%, #608d0b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register-form {
+  width: 450px;
+  height: 600px;
+  background: #ffffffbb;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register-form h1 {
+  font-size: 28pt;
+  color: #2b2a2a;
+}
+.register-form input {
+  width: 80%;
+  font-size: larger;
+  padding: 8px 14px;
+  color: #313131;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.check input {
+  text-align: left;
+  width: 16px;
+  height: 16px;
+}
+
+.register_button {
+  width: 80%;
+  padding: 10px 14px;
+  background: #3a3a3a;
+  font-size: large;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.register_button:hover {
+  background: #608d0b;
+}
+
+.check_link {
+  list-style: none;
+  text-decoration: none;
+  color: #313131;
+}
+.check_link:hover{
+    color:#608d0b;
+}
+
+.Log-Reg {
+  display: flex;
+  gap: 40px;
+}
+
+.pass{
+    width: 80%;
+    position: relative;
+}
+.pass input {
+  width: 100%;
+  font-size: larger;
+  padding: 8px 14px;
+  color: #313131;
+}
+
+.eye_icon {
+  right: 10px;
+  position: absolute;
+  top: 12px;
+  cursor: pointer;
+}
