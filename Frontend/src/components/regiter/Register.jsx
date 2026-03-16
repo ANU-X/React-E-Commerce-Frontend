@@ -25,7 +25,7 @@ const Register = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:3000/api/user/reg", user);
+      const res = await axios.post("https://e-commerce-v1-hi9z.onrender.com", user);
       if(res.data.error){
         toast.error(res.data.message)
       }
