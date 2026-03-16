@@ -1,0 +1,52 @@
+
+.Shopping_banner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 100px auto;
+text-align: left;
+}
+.Shopping_banner img{
+    width: 80%;
+}
+
+
+.Shop-all{
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #f8f8f8;
+    row-gap: 40px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.Shop-all p{
+    font-size: large;
+    font-weight: bold;
+    padding: 6px;
+    cursor: pointer;
+
+}
+.Shop-all > *{
+    justify-self: center;
+}
+
+
+@media only screen and (min-width: 778px){
+    .Shop-all{
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media only screen and (min-width: 992px){
+        .Shop-all{
+    grid-template-columns: repeat(3, 1fr);
+}    
+}
+
+@media only screen and (min-width: 1240px){
+        .Shop-all{
+    grid-template-columns: repeat(4, 1fr);
+}    
+}

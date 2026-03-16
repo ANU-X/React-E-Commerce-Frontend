@@ -1,0 +1,44 @@
+.Popplur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+
+.Popular_item{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+/* -----------------Responsive design------------------- */
+/* midum device */
+@media only screen and (min-width: 768px){
+    .Popular_item{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* large device */
+@media only screen and (min-width: 1024px){
+    .Popular_item{
+        grid-template-columns: repeat(3, 1fr);
+    }    
+}
+
+/* big screen */
+@media only screen and (min-width: 1280px){
+        .Popular_item{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* hights screen */
+@media only screen and (min-width: 1536px){
+
+}

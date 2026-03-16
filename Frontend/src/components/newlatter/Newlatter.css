@@ -1,0 +1,52 @@
+
+.Subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+}
+.Subscribe p{
+    margin: 20px auto;
+}
+
+.Subscribe h1{
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.Sub_search{
+    position: relative;
+}
+
+.Sub_search input{
+    font-size: large;
+    padding: 6px 20px;
+    border-radius: 24px;
+    border: 1px solid black
+}
+
+.Sub_search button{
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    color: white;
+    padding: 7px 14px;
+    font-size: large;
+    border-radius: 24px;
+    border: none;
+    background: black;
+    cursor: pointer;
+}
+.Sub_search button:hover{
+    background: green;
+}
+
+@media only screen and (min-width: 778px){
+   .Sub_search input{
+    width: 500px;
+   }
+   .Subscribe h1{
+    font-size: xx-large;
+}
+}

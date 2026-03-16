@@ -1,0 +1,44 @@
+.Collections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+
+.new_collection{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+/* -----------------Responsive design------------------- */
+/* midum device */
+@media only screen and (min-width: 768px){
+    .new_collection{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* large device */
+@media only screen and (min-width: 1024px){
+    .new_collection{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* big screen */
+@media only screen and (min-width: 1280px){
+    .new_collection{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* hights screen */
+@media only screen and (min-width: 1536px){
+    .new_collection{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

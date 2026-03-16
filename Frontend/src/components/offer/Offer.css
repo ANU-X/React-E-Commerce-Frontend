@@ -1,0 +1,8 @@
+.ads_img{
+padding: 5px;
+}
+
+.ads_img img{
+    width: 100%;
+    margin: 200px auto;
+}
